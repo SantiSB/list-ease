@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TodoSearch {
+  width: 65%;
+  height: 1.5rem;
+  display: flex;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #3e4553;
+  margin-bottom: 1rem;
+  border: 1px solid #61dafa;
+}
+
+.TodoSearch::placeholder {
+  color: #a5a5a5;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+.TodoSearch:focus {
+  border: none;
+  outline-color: #61dafa;
+}
+
+.TodoSearch:disabled {
+  opacity: 25%;
+}
+
+@media (max-width: 900px) {
+  header {
+    display: grid;
+  }
+  .TodoSearch {
+    justify-self: center;
+  }
+}
