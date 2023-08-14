@@ -1,4 +1,4 @@
-import './ToDosLoading.css'
+import './TodosLoading.css'
 
 function ToDosLoading() {
   return (
