@@ -87,7 +87,7 @@ Once your pull request is approved and any requested changes are addressed, your
 ![vite](https://github.com/SantiSB/simple-calculator/assets/55597241/f2fd911f-1db0-4cc8-ba4f-f1c369eff463)
 ![react](https://github.com/SantiSB/simple-calculator/assets/55597241/127d3130-fbae-4fe7-aca4-f1dd22a99bbe)
 ![mui](https://github.com/SantiSB/simple-calculator/assets/55597241/ae0953ef-1044-4a4e-8681-f00805920f58)
-![css](https://github.com/SantiSB/list-ease/assets/55597241/fba38180-4bd7-4680-9081-8651726d6ff9)
+![css](https://github.com/SantiSB/list-ease/assets/55597241/e4327341-db89-4eef-84ef-c0411f763f8d)
 ![prettier](https://github.com/SantiSB/simple-calculator/assets/55597241/7eddb841-1f02-4b60-8617-1c6000151b5c)
 ![eslint](https://github.com/SantiSB/simple-calculator/assets/55597241/d57aac2d-43b3-48c4-9ebc-52e4fb4205eb)
 
