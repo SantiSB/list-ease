@@ -1,7 +1,7 @@
-import React from 'react'
+import { useEffect, useReducer } from 'react'
 
 function useLocalStorage(itemName, initialValue) {
-  const [state, dispatch] = React.useReducer(
+  const [state, dispatch] = useReducer(
     reducer,
     initialState({ initialValue })
   )
@@ -31,7 +31,7 @@ function useLocalStorage(itemName, initialValue) {
       type: actionTypes.synchronize,
     })
 
-  React.useEffect(() => {
+  useEffect(() => {
     setTimeout(() => {
       try {
         const localStorageItem = localStorage.getItem(itemName)

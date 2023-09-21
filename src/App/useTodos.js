@@ -1,4 +1,4 @@
-import React from 'react'
+import { useState } from 'react'
 import { useLocalStorage } from './useLocalStorage'
 
 function useToDos() {
@@ -9,8 +9,9 @@ function useToDos() {
     loading,
     error,
   } = useLocalStorage('TO_DOS_V1', [])
-  const [searchValue, setSearchValue] = React.useState('')
-  const [openModal, setOpenModal] = React.useState(false)
+
+  const [searchValue, setSearchValue] = useState('')
+  const [openModal, setOpenModal] = useState(false)
 
   const completedToDos = toDos.filter((todo) => !!todo.completed).length
   const totalToDos = toDos.length

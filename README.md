@@ -87,9 +87,9 @@ Once your pull request is approved and any requested changes are addressed, your
 
 | [Vite](https://vitejs.dev/)
 | [React](https://es.react.dev/)
+| [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
 | [Prettier](https://prettier.io/)
 | [ESLint](https://eslint.org/)
-|
 
 ## Authors
 
